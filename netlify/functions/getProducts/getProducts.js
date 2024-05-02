@@ -10,7 +10,7 @@ const handler = async (event) => {
             image_url : 'https://i0.wp.com/dansmamaison.ma/wp-content/uploads/2024/01/MLM-611743WEB.jpg?fit=1800%2C1200&quality=89&ssl=1',
             title : "Chaise de  bureau",
             description : "Une chaose ergonomique pour le bureau",
-            prix : "700 DH",
+            prix : "701 DH",
             supp_details : "Reglable en hauteur"
           },
           {
