@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de produits</title>
+    <style>
+        /* Reset CSS */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        #produits {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .produit {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .produit:hover {
+            transform: translateY(-5px);
+        }
+
+        .produit img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .produit h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+
+        .produit p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .produit a {
+            display: inline-block;
+            background-color: #28a745;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .produit a:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catalogue de produits</h1>
+    </header>
+
+    <section id="produits">
+        <!-- Produit 1 -->
+        <div class="produit">
+            <img src="image1.jfif" alt="Produit 1">
+            <h2>Chaise de bureau</h2>
+            <p>Description: Une chaise ergonomique pour le bureau</p>
+            <p>Prix: 700 DH</p>
+            <p>Spécifications: Réglable en hauteur, support lombaire intégré</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="produit">
+            <img src="image 2.jfif" alt="Produit 2">
+            <h2>Ordinateur portable</h2>
+            <p>Description: Un ordinateur portable puissant pour les professionnels</p>
+            <p>Prix: 5000 DH</p>
+            <p>Spécifications: Processeur Intel Core i7, 16 Go de RAM, SSD 512 Go</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="produit">
+            <img src="image 3.jfif" alt="Produit 3">
+            <h2>Lampe de bureau LED</h2>
+            <p>Description: Une lampe de bureau moderne avec éclairage LED réglable</p>
+            <p>Prix: 150 DH</p>
+            <p>Spécifications: Bras articulé, luminosité réglable, faible consommation d'énergie</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 4 -->
+        <div class="produit">
+            <img src="image 4.jfif" alt="Produit 4">
+            <h2>Montre connectée</h2>
+            <p>Description: Une montre connectée avec suivi d'activité et notifications</p>
+            <p>Prix: 1200 DH</p>
+            <p>Spécifications: Étanche, suivi de la fréquence cardiaque, notifications intelligentes</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 5 -->
+        <div class="produit">
+            <img src="image 5.jfif" alt="Produit 5">
+            <h2>Sac à dos</h2>
+            <p>Description: Un sac à dos spacieux et confortable pour les déplacements</p>
+            <p>Prix: 250 DH</p>
+            <p>Spécifications: Compartiment rembourré pour ordinateur portable, multiples poches</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 6 -->
+        <div class="produit">
+            <img src="image 6.jfif" alt="Produit 6">
+            <h2>Casque audio</h2>
+            <p>Description: Un casque audio sans fil avec réduction de bruit active</p>
+            <p>Prix: 800 DH</p>
+            <p>Spécifications: Réduction de bruit active, autonomie de 20 heures</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 7 -->
+        <div class="produit">
+            <img src="image 7.jfif" alt="Produit 7">
+            <h2>Aspirateur sans fil</h2>
+            <p>Description: Un aspirateur sans fil pour un nettoyage efficace et pratique</p>
+            <p>Prix: 1500 DH</p>
+            <p>Spécifications: Batterie longue durée, différents embouts</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+
+        <!-- Produit 8 -->
+        <div class="produit">
+            <img src="image 8.jfif" alt="Produit 8">
+            <h2>Smartphone</h2>
+            <p>Description: Un smartphone haut de gamme avec un design élégant</p>
+            <p>Prix: 3000 DH</p>
+            <p>Spécifications: Écran AMOLED 6.5 pouces, processeur Snapdragon 888, caméra principale 64 MP</p>
+            <a href="#">Acheter maintenant</a>
+        </div>
+    </section>
+    <!-- require axios to fetch our netlify lambda function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script>
+        axios.get('https://incomparable-kleicha-3aad1a.netlify.app/.netlify/functions/getProducts')
+        .then((res) => {
+            alert('success');
+            console.log(res);
+        }).catch((err) => {
+            console.log('error', err);
+        });
+    </script>
+</body>
+
