@@ -47,6 +47,21 @@ const handler = async (event) => {
             description : "Une lampe de bureau moderne avec eclairage LED reglable",
             prix : "150 DH",
             supp_details : "Bras articule, luminosite."
+          },
+
+          {
+            image_url : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIPtRwcpsKQ8UOOKhWA1ymZILw5hzgd5QzMg3TaTjRtw&s',
+            title : "Ordinateur portable",
+            description : "un ordinateur portable puissant pour les professionnels.",
+            prix : "5000 DH",
+            supp_details : "Processeur Intel core i7."
+          },
+          {
+            image_url : 'https://www.boutica-design.fr/42860-large_default/lampe-de-bureau-a-fixation-serre-joint-hobby-1x40w-e27-noir-brilliant-10802_06.jpg',
+            title : "Lampe de bureau LED",
+            description : "Une lampe de bureau moderne avec eclairage LED reglable",
+            prix : "150 DH",
+            supp_details : "Bras articule, luminosite."
           }
         ]
       ),
