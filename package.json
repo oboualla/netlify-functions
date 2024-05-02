@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start" : "netlify functions:serve --port 5000",
+    "build" : "netlify functions:build"
   },
   "author": "",
   "license": "ISC",
