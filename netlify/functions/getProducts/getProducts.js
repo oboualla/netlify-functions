@@ -4,6 +4,9 @@ const handler = async (event) => {
     const subject = event.queryStringParameters.name || 'World'
     return {
       statusCode: 200,
+      headers : {
+        'access-control-allow-origin': '*'
+      },
       body: JSON.stringify(
         [
           {
